@@ -1,0 +1,30 @@
+#buttonBox {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  position: sticky;
+  top: 1px;
+}
+
+button {
+  background-color: rgb(125, 75, 112);
+  color: rgb(251, 217, 244);
+  size: 16px;
+  border-radius: 5px;
+  border: 2px solid rgb(71, 43, 64);
+  padding: 5px 15px;
+  margin-bottom: 10px;
+  
+}
+
+#box {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.img {
+  width: 200px;
+  height: 100%;
+}
